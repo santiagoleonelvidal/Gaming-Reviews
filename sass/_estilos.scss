@@ -1,0 +1,39 @@
+@import '_variables';
+section{
+    p {
+        color: $colorParrafo;
+    }
+}
+
+#switch {
+    button{
+        color:$colorBotones
+    }
+}
+
+#menu{
+    background-color:$colorBackground;
+}
+
+h1, h2 {
+    color: $colorTitulos;
+}
+
+.footer{
+    background-color: $colorBackground;
+}
+
+@mixin iconsizes($iconwidth, $iconheight) {
+    height: $iconheight;
+    width: $iconwidth;
+}
+
+#tipos{
+    ul{
+        li{
+            img{
+               @include iconsizes(height,width)
+            }
+        }
+    }
+}

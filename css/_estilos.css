@@ -1,0 +1,24 @@
+section p {
+  color: #ccc;
+}
+
+#switch button {
+  color: #242323;
+}
+
+#menu {
+  background-color: #161616;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.footer {
+  background-color: #161616;
+}
+
+#tipos ul li img {
+  height: width;
+  width: height;
+}
